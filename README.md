@@ -186,7 +186,11 @@ The Vite configuration includes:
 
 ## License
 
-This project is private and unlicensed. All rights reserved.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for full terms.
+
+## Credits
+
+Third-party libraries, imagery, and assets are documented in [CREDITS.md](CREDITS.md).
 
 ## Author
 
