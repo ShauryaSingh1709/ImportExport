@@ -387,13 +387,6 @@ function App() {
     return () => window.removeEventListener('mousemove', onMouseMove);
   }, [pointerX, pointerY]);
 
-  // Horizontal "journey" reveal. Instead of asking GSAP to fabricate a pin
-  // (which injects a spacer element and toggles position:fixed/static —
-  // the exact mechanism that was producing the blank gap + repeated frame),
-  // the sticky behaviour is delegated to plain CSS `position: sticky` on the
-  // inner viewport-sized panel below. ScrollTrigger's only job here is to
-  // read scroll progress across the tall wrapper and drive the horizontal
-  // translateX of the track — no pin, no spacer, nothing to desync.
   useEffect(() => {
     if (!journeyWrapperRef.current || !journeyTrackRef.current) return;
 
@@ -412,10 +405,6 @@ function App() {
 
     return () => ctx.revert();
   }, []);
-
-  // Same sticky-driven pattern for the globe: the canvas sits in a sticky
-  // viewport-height panel, and scroll progress across the tall wrapper just
-  // drives the spin value — nothing is pinned by JS.
   useEffect(() => {
     if (!globeWrapperRef.current) return;
 

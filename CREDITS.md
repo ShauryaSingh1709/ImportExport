@@ -2,6 +2,15 @@
 
 This project relies on the contributions of many individuals and open-source projects. The following attributions are provided for all third-party assets and libraries used.
 
+## Credit Request
+
+This project is released under the MIT License, which permits free use, modification, and distribution. If you use, fork, or adapt this project in any form, the author requests the following in return:
+
+1. **Star the repository** - If you find this project useful, please star it on GitHub so others can discover it.
+2. **Give credit** - Include a link back to the original repository (https://github.com/ShauryaSingh1709/ImportExport) in your project, README, or credits section.
+
+These requests are not enforced by the license but are greatly appreciated and help support continued open-source work.
+
 ## Libraries & Frameworks
 
 | Library | Version | License | Author |

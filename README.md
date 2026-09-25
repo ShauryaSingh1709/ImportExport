@@ -190,7 +190,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for full 
 
 ## Credits
 
-Third-party libraries, imagery, and assets are documented in [CREDITS.md](CREDITS.md).
+Third-party libraries, imagery, and assets are documented in [CREDITS.md](CREDITS.md). If you use this project, please star the repository and give credit as described there.
 
 ## Author
 
