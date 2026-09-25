@@ -75,6 +75,12 @@ importexport/
 └── README.md
 ```
 
+## Live Demo
+
+The application is deployed and publicly accessible:
+
+- **Production**: [https://import-export-bay.vercel.app](https://import-export-bay.vercel.app)
+
 ## Getting Started
 
 ### Prerequisites
@@ -117,6 +123,10 @@ To preview the production build locally:
 ```bash
 npm run preview
 ```
+
+### Deployment
+
+The application is deployed to Vercel. The build is generated with `npm run build` and the `dist` directory is served as a static site.
 
 ## Configuration
 
